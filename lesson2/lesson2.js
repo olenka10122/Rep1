@@ -91,5 +91,6 @@ film.push('Garry Potter')
 console.log(film);
 
 console.log(film[3]);
+console.log(film.length);
 
 
