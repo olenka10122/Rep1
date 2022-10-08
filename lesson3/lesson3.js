@@ -66,3 +66,39 @@ case 'meneger' :
         break;
 }
 
+let result3 = false || 0 || '' || 'fffff' || 0;
+console.log(result3);
+
+const d = 1;
+const e = 2;
+const f = 3;
+if (d < e && e < f) {
+    console.log('f самый большой');
+} else if (d < e && e > f) {
+    console.log('e самый большой');
+} else if (d < f && f > e) {
+    console.log('f самый большой');
+} else if (d > e && d > f) {
+    console.log('d самый большой');
+}
+
+
+const Pogoda = +70;
+if (Pogoda <= -30) {
+    console.log('Оставайтесь дома!');
+} else if (Pogoda > -30 && Pogoda <= -10) {
+    console.log('Сегодня холодно');
+} else if (Pogoda > -10 && Pogoda <= +5) {
+    console.log('Не холодно');
+} else if (Pogoda > +5 && Pogoda <= +15) {
+    console.log('Тепло');
+} else if (Pogoda > +15 && Pogoda <= +25) {
+    console.log('Очень тепло');
+} else if (Pogoda > +25 && Pogoda < +35) {
+    console.log('Жарко');
+} else if (Pogoda >= +35) {
+    console.log('Пекло');
+}
+
+
+
