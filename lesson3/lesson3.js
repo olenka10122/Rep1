@@ -101,4 +101,42 @@ if (Pogoda <= -30) {
 }
 
 
+let i = 0;
+while (i < 10) {
+    console.log(i);
+    i += 1;   //i = i + 1 //i++
+}
+
+
+let g = 0;
+for (; g < 3; g++) {
+    console.log(g);
+}
+
+let h = 0;
+while (true) {
+    if (h < 30) {
+    h+= 1;
+    } else {
+        break;
+    } console.log(h);
+}
+
+
+for(let j = 0; j <= 5; j += 1) {
+    if (j === 1 || j === 3) continue;
+    console.log(j);
+}
+
+
+const arr = [1,3,5,6,9,12,14,16,17,18,21,25,65,37];
+const result2 = [];
+for (let l = 0; l < arr.length; l += 1) {
+    if(arr[l] % 2 === 0) {
+        result2.push(arr[l]);
+    }
+}
+console.log(result2);
+
+
 
