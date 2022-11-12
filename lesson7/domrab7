@@ -3,7 +3,7 @@ const sumSeven = (arr) => {
     const result =[];
     for (let i of arr) {
         for (let j of arr) {
-            if (i + j ===  && !result.includes(`${j}:${i}`)) {
+            if (i + j === && !result.includes(`${j}:${i}`)) {
                 result.push(`${i}:${j}`)
             }
         }
